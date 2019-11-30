@@ -1,0 +1,31 @@
+server:
+  port: 8888
+spring:
+  profiles:
+    active: dev
+---
+server:
+  port: 9992
+spring:
+  profiles: dev
+---
+server:
+  port: 9991
+spring:
+  profiles: prod
+---
+#person:
+#  name: personname
+#  age: 15
+#  isman: true
+#  birthday: 2019/11/30
+#  maps:
+#    key1: value1
+#    key2: value2
+#  list:
+#    - cat
+#    - dog
+#    - pig
+#  dog:
+#    name: mydog
+#    age: 1
