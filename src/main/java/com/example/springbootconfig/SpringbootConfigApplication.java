@@ -23,8 +23,6 @@ import org.springframework.context.annotation.ImportResource;
  */
 
 //@ImportResource(locations = {"classpath:defaultSpring.xml"})
-
-
 @SpringBootApplication
 public class SpringbootConfigApplication {
 
